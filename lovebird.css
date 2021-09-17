@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+.back-container{
+    background-color:  rgb(231, 159, 151);
+    margin-top: 5vh;
+    margin-left: 5vw;
+    height: 90vh;
+    width: 90vw;
+    padding-top: 5vh;
+    border-radius: 2.5rem;
+   
+
+}
+.main-container-15 {
+  background-color: rgb(226, 184, 184);
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template: 100fr / repeat(2, 50fr);
+    grid-template-areas: "login-image login-inputs";
+    margin-left: 4.5vw;
+    
+    
+}
+
+.login-image {
+    grid-area: login-image;
+    background: url(flamingo-couple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.login-inputs {
+    grid-area: login-inputs;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem;
+  
+}
+
+.welcome-title {
+    font-size: 2rem;
+    color: #616161;
+}
+
+.logo-container {
+    width: 5vw;
+    height: 6vh;
+    text-align: center;
+    background-color: #4DB6AC;
+    margin-left: 13vw;
+    margin-bottom: 2vh;
+    border-radius: 5rem;
+}
+.logopic{
+    height: 6vh;
+    width: 5vw;
+    border-radius: 5rem;
+    
+}
+#a-style{
+        text-align: center;
+         color: grey;
+        margin-top: 4px;
+        font-size: 1.3rem"
+}
+.button{
+    text-align: center;
+    width:10vw;
+    margin-left: 10vw;
+}
+ .or{
+    text-align: center;
+ }
+ #google-icon{
+     width: 2vw;
+     height: 5vh;
+     text-align: center;
+     
+ }
+ 
+
+ .googleIcon{
+    text-align: center;
+    
+ }
+ .newlovebirds{
+    
+     text-align: center;
+ }
+
+ @media only screen and  ( max-width: 768px) {
+    .main-container-15{
+        display: flex;
+        flex-direction: column;
+        width: 100;
+    }
+    .login-image {
+        display: none;
+    }
+    .logo-container {
+        
+        margin-left: 25vw;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+        border-radius: 5rem;
+        height: 7vh;
+        width: 10vw;
+    }
+    .logopic{
+        height: 7vh;
+        width: 10vw;
+        border-radius: 5rem;
+        
+    }
+ }
